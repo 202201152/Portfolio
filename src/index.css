@@ -21,6 +21,10 @@
   --ease-cinematic: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;

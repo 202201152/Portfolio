@@ -13,8 +13,8 @@ const Contact = () => {
                         <span className="text-white">reliable.</span>
                     </h2>
 
-                    <a href="mailto:hello@example.com" className="contact-email">
-                        hello@example.com
+                    <a href="mailto:raganpatel648@gmail.com" className="contact-email">
+                        raganpatel648@gmail.com
                     </a>
                 </div>
 
@@ -22,9 +22,8 @@ const Contact = () => {
                     <span className="copyright">© {currentYear} Portfolio</span>
 
                     <div className="social-links">
-                        <a href="#" className="social-link">LinkedIn</a>
-                        <a href="#" className="social-link">GitHub</a>
-                        <a href="#" className="social-link">Twitter</a>
+                        <a href="https://www.linkedin.com/in/ragan-patel-833252285/" className="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/202201152" className="social-link" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </footer>
             </div>
