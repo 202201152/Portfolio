@@ -2,8 +2,8 @@ import './Philosophy.css';
 
 const Philosophy = () => {
     const technologies = [
-        'React Ecosystem', 'TypeScript', 'Node.js',
-        'WebGL / Three.js', 'System Architecture', 'UI Engineering'
+        'React', 'Node.js', 'Next.js', 'Three.js', 'TypeScript',
+        'Javascript', 'GSAP',
     ];
 
     return (
@@ -25,7 +25,7 @@ const Philosophy = () => {
                                 Good code is quiet. It doesn't demand attention; it simply supports the user's intent with absolute reliability.
                             </p>
                             <p>
-                                My approach is rooted in clarity—stripping away the superfluous to reveal the essential structure of a problem.
+                                My approach is rooted in clarity stripping away the superfluous to reveal the essential structure of a problem.
                                 Whether building financial infrastructure or immersive interfaces, the goal is always the same:
                                 <span className="text-white"> confidence.</span>
                             </p>

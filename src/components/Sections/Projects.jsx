@@ -4,27 +4,33 @@ import './Projects.css';
 const projectsData = [
     {
         id: 1,
-        title: 'Financial Infrastructure',
-        role: 'Lead Architect',
-        year: '2025'
+        title: 'Durga Art Zone',
+        role: 'Solo Full Stack Engineer',
+        year: '2025',
+        description: 'A production-grade, scalable jewelry e-commerce platform with RBAC, secure payments, and admin dashboard.',
+        tech: ['React', 'Node.js', 'MongoDB', 'Docker', 'Redux'],
+        link: 'https://github.com/202201152/Durga-art-zone',
+        isLegacy: false
     },
     {
         id: 2,
-        title: 'Autonomous Logistics',
-        role: 'Interaction Design',
-        year: '2024'
+        title: 'RedSignal',
+        role: 'Full Stack Engineer',
+        year: '2025',
+        description: 'Real-time disaster alert and coordination platform featuring live maps, SOS broadcasting, and NGO resource management.',
+        tech: ['MERN Stack', 'Socket.io', 'Leaflet Maps', 'Cloudinary'],
+        link: 'https://github.com/202201152/RedSignal',
+        isLegacy: false
     },
     {
         id: 3,
-        title: 'Nebula Design System',
-        role: 'Core Maintainer',
-        year: '2024'
-    },
-    {
-        id: 4,
-        title: 'Quant Trading Interface',
-        role: 'Frontend Engineering',
-        year: '2023'
+        title: 'iPhone 16 Pro',
+        role: 'Creative Developer',
+        year: '2025',
+        description: 'Interactive 3D product showcase using Three.js and GSAP for cinematic animations and model rendering.',
+        tech: ['React', 'Three.js', 'GSAP', 'Tailwind', 'Vite'],
+        link: 'https://github.com/202201152/Iphone-16pro',
+        isLegacy: false
     }
 ];
 
@@ -44,6 +50,9 @@ const Projects = () => {
                             title={project.title}
                             role={project.role}
                             year={project.year}
+                            description={project.description}
+                            tech={project.tech}
+                            link={project.link}
                         />
                     ))}
                 </div>
