@@ -1,0 +1,91 @@
+.section-philosophy {
+    padding: 10rem 0;
+    position: relative;
+    z-index: 10;
+}
+
+.philosophy-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* 1/3 label, 2/3 content */
+    gap: 4rem;
+}
+
+.philosophy-label {
+    position: sticky;
+    top: 120px;
+    /* Stick while scrolling content */
+    align-self: start;
+    opacity: 0.9;
+}
+
+.philosophy-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.text-highlight {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+}
+
+.philosophy-text p {
+    font-family: var(--font-sans);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    max-width: 65ch;
+    /* Optimal reading measure */
+}
+
+.text-white {
+    color: var(--text-primary);
+}
+
+/* Tech Stack */
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem;
+}
+
+.tech-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+}
+
+.tech-item {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .philosophy-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .philosophy-label {
+        position: static;
+    }
+}

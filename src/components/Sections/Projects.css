@@ -1,0 +1,33 @@
+.section-projects {
+    padding: 10rem 0;
+    position: relative;
+    z-index: 10;
+}
+
+.projects-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 6rem;
+    opacity: 0.9;
+}
+
+.section-label {
+    font-family: var(--font-mono, monospace);
+    /* Fallback */
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.section-title {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+}
