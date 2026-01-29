@@ -29,7 +29,7 @@ const projectsData = [
         year: '2025',
         description: 'Interactive 3D product showcase using Three.js and GSAP for cinematic animations and model rendering.',
         tech: ['React', 'Three.js', 'GSAP', 'Tailwind', 'Vite'],
-        link: 'https://github.com/202201152/Iphone-16pro',
+        link: 'https://iphone-peach-two.vercel.app',
         isLegacy: false
     }
 ];
