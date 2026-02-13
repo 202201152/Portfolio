@@ -9,7 +9,7 @@ const projectsData = [
         year: '2025',
         description: 'A production-grade, scalable jewelry e-commerce platform with RBAC, secure payments, and admin dashboard.',
         tech: ['React', 'Node.js', 'MongoDB', 'Docker', 'Redux'],
-        link: 'https://github.com/202201152/Durga-art-zone',
+        link: 'https://durga-art-zone-zyhq.vercel.app/',
         isLegacy: false
     },
     {
