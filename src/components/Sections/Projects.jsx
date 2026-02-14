@@ -5,8 +5,8 @@ const projectsData = [
     {
         id: 1,
         title: 'Durga Art Zone',
-        role: 'Solo Full Stack Engineer',
-        year: '2025',
+        role: 'Full Stack Engineer',
+        year: '2026',
         description: 'A production-grade, scalable jewelry e-commerce platform with RBAC, secure payments, and admin dashboard.',
         tech: ['React', 'Node.js', 'MongoDB', 'Docker', 'Redux'],
         link: 'https://durga-art-zone-zyhq.vercel.app/',
