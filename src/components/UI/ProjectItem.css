@@ -99,15 +99,22 @@
     font-family: var(--font-mono);
     font-size: 0.75rem;
     color: var(--text-muted);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0.25rem 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.35rem 0.85rem;
     border-radius: 100px;
-    transition: border-color 0.3s ease, color 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .project-item:hover .tech-tag {
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
     color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .project-role {

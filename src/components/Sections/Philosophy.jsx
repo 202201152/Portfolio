@@ -3,7 +3,7 @@ import './Philosophy.css';
 const Philosophy = () => {
     const technologies = [
         'React', 'Node.js', 'Next.js', 'Three.js', 'TypeScript',
-        'Javascript', 'GSAP',
+        'Javascript', 'GSAP', 'AWS', 'Docker'
     ];
 
     return (
