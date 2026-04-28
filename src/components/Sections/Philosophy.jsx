@@ -1,11 +1,31 @@
+import LogoLoop from '../UI/LogoLoop';
+import {
+    SiReact, SiNodedotjs, SiNextdotjs, SiThreedotjs,
+    SiTypescript, SiJavascript, SiGreensock,
+    SiDocker, SiFramer, SiStripe, SiRazorpay, SiGithub
+} from 'react-icons/si';
+import { FaAws } from 'react-icons/fa6';
+import { TbVectorSpline } from 'react-icons/tb';
 import './Philosophy.css';
 
-const Philosophy = () => {
-    const technologies = [
-        'React', 'Node.js', 'Next.js', 'Three.js', 'TypeScript',
-        'Javascript', 'GSAP', 'AWS', 'Docker'
-    ];
+const techLogos = [
+    { node: <SiReact />, title: 'React' },
+    { node: <SiNodedotjs />, title: 'Node.js' },
+    { node: <SiNextdotjs />, title: 'Next.js' },
+    { node: <SiThreedotjs />, title: 'Three.js' },
+    { node: <SiTypescript />, title: 'TypeScript' },
+    { node: <SiJavascript />, title: 'JavaScript' },
+    { node: <SiGreensock />, title: 'GSAP' },
+    { node: <FaAws />, title: 'AWS' },
+    { node: <SiDocker />, title: 'Docker' },
+    { node: <SiFramer />, title: 'Framer' },
+    { node: <TbVectorSpline />, title: 'Spline' },
+    { node: <SiStripe />, title: 'Stripe' },
+    { node: <SiRazorpay />, title: 'Razorpay' },
+    { node: <SiGithub />, title: 'GitHub' },
+];
 
+const Philosophy = () => {
     return (
         <section id="philosophy" className="section-philosophy">
             <div className="container">
@@ -33,11 +53,20 @@ const Philosophy = () => {
 
                         <div className="tech-stack">
                             <span className="tech-label">Technical Foundation</span>
-                            <ul className="tech-list">
-                                {technologies.map((tech) => (
-                                    <li key={tech} className="tech-item">{tech}</li>
-                                ))}
-                            </ul>
+                            <div className="tech-loop-wrapper">
+                                <LogoLoop
+                                    logos={techLogos}
+                                    speed={80}
+                                    direction="left"
+                                    logoHeight={32}
+                                    gap={48}
+                                    hoverSpeed={0}
+                                    scaleOnHover
+                                    fadeOut
+                                    fadeOutColor="#050505"
+                                    ariaLabel="Technical skills"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

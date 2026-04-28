@@ -31,6 +31,16 @@ const projectsData = [
         tech: ['React', 'Three.js', 'GSAP', 'Tailwind', 'Vite'],
         link: 'https://iphone-peach-two.vercel.app',
         isLegacy: false
+    },
+    {
+        id: 4,
+        title: 'Pagani Utopia',
+        role: 'Creative Developer',
+        year: '2026',
+        description: 'Immersive luxury automotive experience website for the Pagani Utopia — featuring cinematic animations, video storytelling, and a premium design language.',
+        tech: ['React', 'GSAP', 'Three.js', 'Framer motion', 'CSS'],
+        link: 'https://pagani-3kaj.vercel.app/',
+        isLegacy: false
     }
 ];
 
